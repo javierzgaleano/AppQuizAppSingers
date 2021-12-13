@@ -132,7 +132,7 @@ public class StartGame extends AppCompatActivity {
         ArrayList<String> artistListTemp = (ArrayList<String>) artistas.clone();
         // Obtener la respuesta correcta para la pregunta actual de artistList usando index.
         String correctAnswer = artistas.get(index);
-        // Necesitas encontrar tres respuestas incorrectas no repetidas al azar.
+        // Necesitas encontrar UNA DE LAS tres respuestas incorrectas no repetidas al azar.
         // Entonces, elimine la respuesta correcta de artistListTemp.
         // Mezclarlo y obtener los primeros tres elementos de él.
         artistListTemp.remove(correctAnswer);
